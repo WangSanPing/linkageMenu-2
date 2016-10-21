@@ -14,6 +14,8 @@
 		59A4D2E71DB9EA170086CF9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59A4D2E61DB9EA170086CF9A /* Assets.xcassets */; };
 		59A4D2EA1DB9EA170086CF9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59A4D2E81DB9EA170086CF9A /* LaunchScreen.storyboard */; };
 		59A4D2F51DB9EA170086CF9A /* linkageMenu_2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A4D2F41DB9EA170086CF9A /* linkageMenu_2Tests.m */; };
+		59A4D3001DB9F07E0086CF9A /* categories.plist in Resources */ = {isa = PBXBuildFile; fileRef = 59A4D2FF1DB9F07E0086CF9A /* categories.plist */; };
+		59A4D3031DB9F52E0086CF9A /* WXcategoriesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A4D3021DB9F52E0086CF9A /* WXcategoriesModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		59A4D2F01DB9EA170086CF9A /* linkageMenu-2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "linkageMenu-2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		59A4D2F41DB9EA170086CF9A /* linkageMenu_2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = linkageMenu_2Tests.m; sourceTree = "<group>"; };
 		59A4D2F61DB9EA170086CF9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59A4D2FF1DB9F07E0086CF9A /* categories.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = categories.plist; sourceTree = "<group>"; };
+		59A4D3011DB9F52E0086CF9A /* WXcategoriesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXcategoriesModel.h; sourceTree = "<group>"; };
+		59A4D3021DB9F52E0086CF9A /* WXcategoriesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXcategoriesModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +94,10 @@
 				59A4D2E61DB9EA170086CF9A /* Assets.xcassets */,
 				59A4D2E81DB9EA170086CF9A /* LaunchScreen.storyboard */,
 				59A4D2EB1DB9EA170086CF9A /* Info.plist */,
+				59A4D2FF1DB9F07E0086CF9A /* categories.plist */,
 				59A4D2DA1DB9EA170086CF9A /* Supporting Files */,
+				59A4D3011DB9F52E0086CF9A /* WXcategoriesModel.h */,
+				59A4D3021DB9F52E0086CF9A /* WXcategoriesModel.m */,
 			);
 			path = "linkageMenu-2";
 			sourceTree = "<group>";
@@ -193,6 +201,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59A4D3001DB9F07E0086CF9A /* categories.plist in Resources */,
 				59A4D2EA1DB9EA170086CF9A /* LaunchScreen.storyboard in Resources */,
 				59A4D2E71DB9EA170086CF9A /* Assets.xcassets in Resources */,
 				59A4D2E51DB9EA170086CF9A /* Main.storyboard in Resources */,
@@ -213,6 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59A4D3031DB9F52E0086CF9A /* WXcategoriesModel.m in Sources */,
 				59A4D2E21DB9EA170086CF9A /* ViewController.m in Sources */,
 				59A4D2DF1DB9EA170086CF9A /* AppDelegate.m in Sources */,
 				59A4D2DC1DB9EA170086CF9A /* main.m in Sources */,
@@ -410,6 +420,7 @@
 				59A4D2FB1DB9EA170086CF9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		59A4D2FC1DB9EA170086CF9A /* Build configuration list for PBXNativeTarget "linkageMenu-2Tests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +429,7 @@
 				59A4D2FE1DB9EA170086CF9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
