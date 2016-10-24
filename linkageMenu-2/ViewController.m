@@ -45,6 +45,7 @@ NSString *twoID = @"twoID";
     [self.tableViewOne registerClass:[UITableViewCell class] forCellReuseIdentifier:oneID];
     [self.tableViewTwo registerClass:[UITableViewCell class] forCellReuseIdentifier:twoID];
     
+    self.tableViewOne.contentInset = UIEdgeInsetsMake(-64, 0, 0, 0);
     self.tableViewOne.delegate = self;
     self.tableViewOne.dataSource = self;
     self.tableViewTwo.dataSource = self;
